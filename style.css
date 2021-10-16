@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "a Apple Tea";
+}
+body{
+    background: darkcyan;
+}
+.container{
+    width: 90%;
+    height: 540px;
+    display: flex;
+    background-image: linear-gradient(0deg, green,white,deepskyblue);
+    margin: 5% auto;
+    box-shadow: 0px 8px 2px 1px rgba(0, 0, 0, 0.44);
+    padding: 14px;
+    border-radius: 5px;
+}
+
+.container .box{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container .box:nth-child(1){
+    background: rgba(196, 29, 29, 0.36);
+    backdrop-filter: blur(5px);
+    color: white;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+
+.container .box:nth-child(2){
+    background: rgba(196, 29, 29, 0.36);
+    backdrop-filter: blur(5px);
+    color: white;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.container .box input{
+    width: 300px;
+    height: 55px;
+    margin: 6px;
+    border-radius: 8px;
+    font-size: 24px;
+    color:red;
+    padding: 4px 12px;
+    border: none;
+    outline: none;
+    transition: 0.5s ease;
+}
+
+
+.container .box input:focus{
+    background: yellow;
+    color: black;
+    border: 2px double black;
+    border-radius: 12px 0 12px 0;
+}
+label{
+    font-size: 25px;
+    color:crimson;
+}
